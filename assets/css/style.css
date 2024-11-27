@@ -1,0 +1,524 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .header .search {
+    float: right;
+    margin-right: 50px;
+  }
+
+  .header .search input  {
+    padding: 12px;
+    border: 1px solid #f1ecec;
+    border-radius: 5px;
+    width: 550px;
+    background:black;
+    color: #f1ecec;
+  }
+  .header .search button  {
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #f1ecec;
+    background: black;
+    background-color: white;
+    color: black;
+    
+  }
+  .icons a i {
+    float: right;
+    margin-right: 30px;
+  }
+
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+   
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+/* Hero Styles */
+ .Hero {
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+    margin: auto;
+    width: 100%;
+    border: none;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin-top: 40px;
+  }
+
+  .Hero {
+    display: flex;
+    gap: 30px;
+  }
+
+  .text {
+    text-align: center;
+  }
+ 
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .image{
+          max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+  }
+/* button all brands */
+  .bodybtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.bodylast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    margin-right: 30px ;
+}
+
+.nothing {
+    background-color: #222;
+    color: #fff;
+}
+
+.apple {
+    background-color: #000;
+    color: #fff;
+}
+
+.samsung {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.oppo {
+    background-color: #00a950;
+    color: #fff;
+}
+
+.huawei {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.vivo {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.poco {
+    background-color: #ffcd00;
+    color: #000;
+    
+}
+
+.xiaomi {
+    background-color: #f05050;
+    color: #fff;
+   
+}
+
+.honor {
+    background-color: #00a9ff;
+    color: #fff;
+}
+
+.tecno {
+    background-color: #007bff;
+    color: #fff;
+    
+}
+
+.infinix {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.oneplus {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+/* lastproduct */
+.product {
+  font-family: Arial, sans-serif;
+}
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+.product-title span {
+  color: blue;
+  
+}
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.product-price {
+  color: blue;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.add-to-cart {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* product-slite */
+.product_slite {
+  font-family: Arial, sans-serif;
+ 
+}
+.center {
+  border: 2px solid #0000FF;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-info {
+  width: 100%;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 600px;
+}
+
+.card-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  /* margin-bottom: 10px; */
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-features {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card-features span {
+  margin: 0 10px;
+}
+
+.card-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  background-color: #dc143c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.best-sale .badge {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+} 
+.best-sale {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* product-Selling */
+
+.different {
+  width: 100%; 
+  background-color: #1c1c1e;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  color: white;
+ 
+}
+.btn-custom {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  
+}
+.btn-shop {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+.btn-view {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+.btn-shop:hover, .btn-view:hover {
+  opacity: 0.8;
+}
+.product-image {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+/* product Arrive  */
+
+.arrive {
+  
+  width: 100%;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center; 
+  
+}
+.arrive-dark {
+  background-color: #333;
+  color: white;
+  
+}
+.arrive-light {
+  background-color:#f8f9fa;
+  color: black;
+}
+.badge-new {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.arrive-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.arrive-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* Phone */
+.Pixel {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 50vh;
+  border-radius: 15px;
+}
+
+.pixel9Pro {
+  text-align: center;
+ 
+}
+.Pixel img{
+  width: 100%;
+  padding-right: 0%;
+  height: auto;
+  border-radius: 10px;
+}
+/* XIAOMI-start */
+/* footer */
+
+.xiaomis {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.banner img {
+  width: 100%;
+  border-radius: 10px;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+.galaxy{
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.galaxy-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.galaxy img{
+  width: 70%;
+  height: auto;
+}
+
+.banner {
+  background-color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-image {
+  max-height: 100px;
+}
+.footer {
+  font-family: 'Arial', sans-serif;
+  /* background-color: #f8f9fa; */
+  width: 100%;
+}
+
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.contact-info p {
+  margin: 10px;
+}
+.contact-info i {
+  margin-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  /* background-color: #f8f9fa; */
+  /* border-top: 1px solid #dee2e6; */
+  margin-top: 20px;
+  
+}

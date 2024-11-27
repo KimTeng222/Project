@@ -1,0 +1,304 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .header .search {
+    float: right;
+    margin-right: 50px;
+  }
+
+  .header .search input  {
+    padding: 12px;
+    border: 1px solid #f1ecec;
+    border-radius: 5px;
+    width: 550px;
+    background:black;
+    color: #f1ecec;
+  }
+  .header .search button  {
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #f1ecec;
+    background: black;
+    background-color: white;
+    color: black;
+    
+  }
+  .icons a i {
+    float: right;
+    margin-right: 30px;
+  }
+
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+   
+  }
+
+  .nav a {
+    width: 100px;
+    margin: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Product Categories */
+  /* button all brands */
+
+.button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4px;
+    font-size: 12px;
+
+}
+
+.nothing {
+    background-color: #222;
+    color: #fff;
+}
+
+.apple {
+    background-color: #000;
+    color: #fff;
+}
+
+.samsung {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.oppo {
+    background-color: #00a950;
+    color: #fff;
+}
+
+.huawei {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.vivo {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.poco {
+    background-color: #ffcd00;
+    color: #000;
+    
+}
+
+.xiaomi {
+    background-color: #f05050;
+    color: #fff;
+   
+}
+
+.honor {
+    background-color: #00a9ff;
+    color: #fff;
+}
+
+.tecno {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.infinix {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.oneplus {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+/* Product */
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+.sidebar h5 {
+    margin-bottom: 20px;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin-bottom: 10px;
+    
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+.product-card img {
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+}
+.product-card h5 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-card p {
+    color: #007bff;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.product-card a {
+    color: #dc3545;
+    font-size: 14px;
+    text-decoration: none;
+}
+.product-card a:hover {
+    text-decoration: underline;
+}
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
+.list-group-item i {
+    float: right;
+    color: #888;
+}
+.header .brand {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.header .view-more {
+    color: blue;
+    font-size: 14px;
+}
+/* pagination-start */
+.pag-ina{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #fff;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.pagination a {
+  text-decoration: none;
+  color: #b0b0b0;
+  font-size: 24px;
+  margin: 0 10px;
+}
+.pagination a.active {
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination a:hover {
+  color: #000;
+}
+.pagination .arrow {
+  font-size: 24px;
+  color: #b0b0b0;
+}
+
+
+
+/* footer */
+
+.footer {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+
+.contact-info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.contact-info p {
+  margin: 10px;
+}
+.contact-info i {
+  margin-right: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  margin-top: 20px;
+  
+}

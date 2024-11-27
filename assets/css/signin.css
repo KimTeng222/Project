@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background-color: #f8f9fa;
+}
+.signin-container {
+    background-color: #f1f1f1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: auto; /* Changed to auto for better responsiveness */
+}
+.signin-container h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form-control {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    width: 40%; /* Set a fixed width */
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+.btn-primary:hover {
+    background-color: #333;
+}
+.form-check-label {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+.forgot-password {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+.signup-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
